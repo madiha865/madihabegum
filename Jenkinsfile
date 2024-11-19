@@ -5,7 +5,7 @@ pipeline {
                timeout(time: 1, unit: 'SECONDS')
              }
     stages {
-         stage('build') {
+         stage("build") {
              steps{
              echo "build the application"
               }
